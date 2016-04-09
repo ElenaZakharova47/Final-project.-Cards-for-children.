@@ -9,8 +9,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.android.cardsforchildren.ActivityTwo"
-    tools:showIn="@layout/activity_two"
+    tools:context="com.example.android.cardsforchildren.ActivityFour"
+    tools:showIn="@layout/activity_four"
     android:orientation="vertical">
 
 
@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="19dp"
-        android:src="@drawable/canary"
+        android:src="@drawable/bulldozer"
         android:scaleType="fitStart"
         />
 
@@ -36,4 +36,3 @@
     </Button>
 
 </RelativeLayout>
-

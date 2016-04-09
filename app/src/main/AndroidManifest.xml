@@ -25,6 +25,22 @@
         <activity
             android:name=".ActivityThree"
             android:label="@string/title_activity_activity_three"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActivityFour"
+            android:label="@string/title_activity_activity_four"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActivityFive"
+            android:label="@string/title_activity_activity_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActivitySix"
+            android:label="@string/title_activity_activity_six"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActivitySeven"
+            android:label="@string/title_activity_activity_seven"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

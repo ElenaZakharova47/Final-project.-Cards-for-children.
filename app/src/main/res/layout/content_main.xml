@@ -4,78 +4,159 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.android.cardsforchildren.MainActivity"
     tools:showIn="@layout/activity_main">
 
     <LinearLayout
-        android:layout_width="1dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_weight="1"
-        android:orientation="vertical">
+        android:orientation="horizontal">
 
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/animals" />
-
-        <Button
-            android:id="@+id/btnActTwo"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="1dp"
             android:layout_height="wrap_content"
-            android:text="животные"
-            android:textSize="12sp"></Button>
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:src="@drawable/animals" />
+
+            <Button
+                android:id="@+id/btnActTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="животные"
+                android:textSize="12sp"></Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            >
+
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+
+                android:src="@drawable/birds" />
+
+            <Button
+                android:id="@+id/btnActThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="птицы"
+                android:textSize="12sp"></Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:src="@drawable/equipment" />
+
+            <Button
+                android:id="@+id/btnActFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="техника"
+                android:textSize="12sp"></Button>
+        </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="1dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_weight="1"
-        android:orientation="vertical">
-        >
+        android:orientation="horizontal">
 
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-
-            android:src="@drawable/birds" />
-
-        <Button
-            android:id="@+id/btnActTwo"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="1dp"
             android:layout_height="wrap_content"
-            android:text="птицы"
-            android:textSize="12sp"></Button>
-    </LinearLayout>
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="1dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_weight="1"
-        android:orientation="vertical">
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:src="@drawable/food" />
 
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/equipment" />
+            <Button
+                android:id="@+id/btnActFive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="еда"
+                android:textSize="12sp"></Button>
+        </LinearLayout>
 
-        <Button
-            android:id="@+id/btnActTwo"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="1dp"
             android:layout_height="wrap_content"
-            android:text="техника"
-            android:textSize="12sp"></Button>
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            >
+
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+
+                android:src="@drawable/fruts" />
+
+            <Button
+                android:id="@+id/btnActSix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="фрукты"
+                android:textSize="12sp"></Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:src="@drawable/furniture" />
+
+            <Button
+                android:id="@+id/btnActSeven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="мебель"
+                android:textSize="12sp"></Button>
+        </LinearLayout>
     </LinearLayout>
 </LinearLayout>
 

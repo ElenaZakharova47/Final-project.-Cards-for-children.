@@ -15,7 +15,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.ImageView;
 
-public class ActivityTwo extends AppCompatActivity {
+public class ActivitySix extends AppCompatActivity {
 
 
     int numberOfClickNext = 0;
@@ -23,7 +23,7 @@ public class ActivityTwo extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_two);
+        setContentView(R.layout.activity_six);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -54,34 +54,34 @@ public class ActivityTwo extends AppCompatActivity {
 
         switch (number) {
             case 1:
-                imageView.setImageResource(R.drawable.crocodile);
+                imageView.setImageResource(R.drawable.banana);
                 break;
             case 2:
-                imageView.setImageResource(R.drawable.frog);
+                imageView.setImageResource(R.drawable.cherry);
                 break;
             case 3:
-                imageView.setImageResource(R.drawable.giraffe);
+                imageView.setImageResource(R.drawable.grape);
                 break;
             case 4:
-                imageView.setImageResource(R.drawable.gout);
+                imageView.setImageResource(R.drawable.kiwi);
                 break;
             case 5:
-                imageView.setImageResource(R.drawable.hedgehog);
+                imageView.setImageResource(R.drawable.lemon);
                 break;
             case 6:
-                imageView.setImageResource(R.drawable.horse);
+                imageView.setImageResource(R.drawable.orange);
                 break;
             case 7:
-                imageView.setImageResource(R.drawable.lion);
+                imageView.setImageResource(R.drawable.pear);
                 break;
             case 8:
-                imageView.setImageResource(R.drawable.snake);
+                imageView.setImageResource(R.drawable.pineapple);
                 break;
             case 9:
-                imageView.setImageResource(R.drawable.wolf);
+                imageView.setImageResource(R.drawable.strawberry);
                 break;
             case 10:
-                imageView.setImageResource(R.drawable.cat);
+                imageView.setImageResource(R.drawable.apple);
                 break;
         }
 

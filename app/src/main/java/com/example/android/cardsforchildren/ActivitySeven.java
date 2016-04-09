@@ -15,7 +15,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.ImageView;
 
-public class ActivityTwo extends AppCompatActivity {
+public class ActivitySeven extends AppCompatActivity {
 
 
     int numberOfClickNext = 0;
@@ -23,7 +23,7 @@ public class ActivityTwo extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_two);
+        setContentView(R.layout.activity_seven);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -41,7 +41,7 @@ public class ActivityTwo extends AppCompatActivity {
 
     public void onMyButtonClick(View view) {
         numberOfClickNext = numberOfClickNext + 1;
-        if (numberOfClickNext == 11) {
+        if (numberOfClickNext == 10) {
             numberOfClickNext = 1;
         }
         // выводим сообщение
@@ -54,35 +54,33 @@ public class ActivityTwo extends AppCompatActivity {
 
         switch (number) {
             case 1:
-                imageView.setImageResource(R.drawable.crocodile);
+                imageView.setImageResource(R.drawable.bed);
                 break;
             case 2:
-                imageView.setImageResource(R.drawable.frog);
+                imageView.setImageResource(R.drawable.chair);
                 break;
             case 3:
-                imageView.setImageResource(R.drawable.giraffe);
+                imageView.setImageResource(R.drawable.chest);
                 break;
             case 4:
-                imageView.setImageResource(R.drawable.gout);
+                imageView.setImageResource(R.drawable.cupboard);
                 break;
             case 5:
-                imageView.setImageResource(R.drawable.hedgehog);
+                imageView.setImageResource(R.drawable.lamp);
                 break;
             case 6:
-                imageView.setImageResource(R.drawable.horse);
+                imageView.setImageResource(R.drawable.sofa);
                 break;
             case 7:
-                imageView.setImageResource(R.drawable.lion);
+                imageView.setImageResource(R.drawable.table);
                 break;
             case 8:
-                imageView.setImageResource(R.drawable.snake);
+                imageView.setImageResource(R.drawable.wardrobe);
                 break;
             case 9:
-                imageView.setImageResource(R.drawable.wolf);
+                imageView.setImageResource(R.drawable.armchair);
                 break;
-            case 10:
-                imageView.setImageResource(R.drawable.cat);
-                break;
+
         }
 
     }

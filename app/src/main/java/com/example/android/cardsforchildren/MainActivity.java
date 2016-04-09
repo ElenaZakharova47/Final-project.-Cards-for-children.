@@ -19,6 +19,11 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     Button btnActTwo;
+    Button btnActThree;
+    Button btnActFour;
+    Button btnActFive;
+    Button btnActSix;
+    Button btnActSeven;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +42,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         });
         btnActTwo = (Button) findViewById(R.id.btnActTwo);
         btnActTwo.setOnClickListener(this);
+
+        btnActThree = (Button) findViewById(R.id.btnActThree);
+        btnActThree.setOnClickListener(this);
+
+        btnActFour = (Button) findViewById(R.id.btnActFour);
+        btnActFour.setOnClickListener(this);
+
+        btnActFive = (Button) findViewById(R.id.btnActFive);
+        btnActFive.setOnClickListener(this);
+
+        btnActSix = (Button) findViewById(R.id.btnActSix);
+        btnActSix.setOnClickListener(this);
+
+        btnActSeven = (Button) findViewById(R.id.btnActSeven);
+        btnActSeven.setOnClickListener(this);
     }
     @Override
     public void onClick(View v) {
@@ -44,6 +64,26 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btnActTwo:
                 Intent intent = new Intent(this, ActivityTwo.class);// TODO Call second activity
                 startActivity(intent);
+                break;
+            case R.id.btnActThree:
+                Intent intentThree = new Intent(this, ActivityThree.class);// TODO Call three activity
+                startActivity(intentThree);
+                break;
+            case R.id.btnActFour:
+                Intent intentFour = new Intent(this, ActivityFour.class);// TODO Call three activity
+                startActivity(intentFour);
+                break;
+            case R.id.btnActFive:
+                Intent intentFive = new Intent(this, ActivityFive.class);// TODO Call three activity
+                startActivity(intentFive);
+                break;
+            case R.id.btnActSix:
+                Intent intentSix = new Intent(this, ActivitySix.class);// TODO Call three activity
+                startActivity(intentSix);
+                break;
+            case R.id.btnActSeven:
+                Intent intentSeven = new Intent(this, ActivitySeven.class);// TODO Call three activity
+                startActivity(intentSeven);
                 break;
             default:
                 break;

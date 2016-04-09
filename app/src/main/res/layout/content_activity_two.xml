@@ -15,6 +15,7 @@
 
 
     <ImageView
+        android:id="@+id/my_next_image_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="19dp"
@@ -23,12 +24,14 @@
      />
 
     <Button
-        android:id="@+id/btnActThree"
+        android:id="@+id/next_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="next"
+        android:text="дальше"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
+        android:onClick="onMyButtonClick"
+
       >
     </Button>
 
