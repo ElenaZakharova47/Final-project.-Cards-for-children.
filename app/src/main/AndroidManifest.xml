@@ -22,6 +22,7 @@
             android:name=".ActivityTwo"
             android:label="@string/title_activity_activity_two"
             android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
             android:name=".ActivityThree"
             android:label="@string/title_activity_activity_three"
